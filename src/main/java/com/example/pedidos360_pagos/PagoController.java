@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/api/pagos")
+@RequestMapping({"/api/pagos", "/v1/pagos"})
 public class PagoController {
 
     @PostMapping("/procesar")
